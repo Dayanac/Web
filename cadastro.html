@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css"
+     href="estilo.css" />
+	 
+	<div id ="topo">
+	<img src="ufoptopo.jpg"  alt="Imagem nao encontrada"/>
+	</div>
+	<h2 class = "nova"> Cadastro </h2>
+</head>
+<body>
+	<div id="cadastro">
+	 <form name="cadastro" method="post" action="sucessoCadastro.html">
+	    <label for="matricula">Matricula</label></br>
+        <input type="text" name="matricula" maxlength="20" />
+        <br />
+		</br>
+        <label for="nome">Nome</label></br>
+        <input type="text" name="nome" maxlength="20" />
+        <br />
+		</br>
+	    <label for="rua">Rua</label></br>
+        <input type="text" name="rua" maxlength="20" />
+        <br />
+		</br>
+        <label for="numero">Numero</label></br>
+        <input type="text" name="numero" maxlength="10" />
+        <br />
+		</br>
+		<label for="nome">Complemento</label></br>
+        <input type="text" name="complemento" maxlength="20" />
+        <br />
+		</br>
+		Cidade: 
+    	<select name="cidades">
+
+          <option value="1">Itauna</option>
+          <option value="2">Belo Horizonte</option>
+          <option value="3">Joao Monlevade</option>
+
+        </select>
+		</br>
+		</br>
+		<input type="radio" name="sexo" value="F" />Feminino
+        <input type="radio" name="sexo" value="M" />Masculino
+		</br>
+		</br>
+		<label for="rg">RG</label></br>
+        <input type="text" name="rg" maxlength="15" />
+        <br />
+		</br>
+		<label for="cpf">CPF</label></br>
+        <input type="text" name="cpf" maxlength="15" />
+        <br />
+		</br>
+		Tipo sanguinio:
+		<select name="sangue">
+          <option value="1">A</option>
+          <option value="2">B</option>
+          <option value="3">O</option>
+		  <option value="4">AB</option>
+	    </select>
+		</br>
+		Fator RH:
+		<input type="radio" name="sexo" value="positivo" />+
+        <input type="radio" name="sexo" value="negativo" />-
+		</br>
+		</br>
+		<label for="telefone">Telefone</label></br>
+        <input type="text" name="telefone" maxlength="15" />
+        <br />
+		</br>
+		<label for="celular">Celular</label></br>
+        <input type="text" name="celular" maxlength="15" />
+        <br />
+		</br>
+		<label for="email">Email</label></br>
+        <input type="text" name="email" maxlength="20" />
+        <br />
+		</br>
+		Senha:</br>  <input type="password" name="senha" />
+		</br>
+		</br>
+		Confirme sua senha: </br> <input type="password" name="confirmacao" />
+		</br>
+		</br>
+		Acessos:</br>
+		<form action="">
+        <input type="checkbox" name="acesso" value = "bibi">Biblioteca <br>    
+		<input type="checkbox" name="acesso" value = "rest">Restaurante <br>
+		<input type="checkbox" name="acesso" value = "clube">Clube <br>
+		<input type="checkbox" name="acesso" value = "campo">Campo <br>
+	</br>
+	<input type="submit" value="Enviar"/>
+	<input type="reset" value="Limpar"/>
+	</br>
+	</br>
+	</form>
+	</div>
+	<div id="voltar">
+	<a href="index.html">Voltar</a>
+	</div>
+	<div id="rodape">
+        UFOP - Dayana Cristina Oliveira 10.1.8159 dayanacoliveira@hotmail.com
+    </div>
+</body>
